@@ -1,3 +1,5 @@
 theme: jekyll-theme-leap-day
 title: [Mobile Manipulation Tutorial]
-show_downloads: [false]
+description: [Additional resources for the (journal name tbd) MoManTu]
+github:
+  is_project_page: false

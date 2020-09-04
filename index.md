@@ -24,7 +24,7 @@ Below two videos show the demo on a real and a simulated Fetch robot:
   Your browser does not support the video tag.
 </video>
 
-&nbsp;  
+|nbsp;  
 
 # Docker
 
@@ -62,6 +62,42 @@ roslaunch fetch_sim robot_service.launch
 # Sources
 
 The sources for the MoManTu are on GitHub: [https://github.com/momantu](https://github.com/momantu).
+
+The MoManTu Fetch demo is found here: https://github.com/momantu/momantu_fetch
+
+The MoManTu Jackal Kinova demo is todo.
+
+## Online Packages:
+
+| Role         | Package           | URL  |
+|:-------------|:------------------|:------|
+| Localization | AMCL | http://wiki.ros.org/amcl  |
+| Local Costmap | ROS Navigation | http://wiki.ros.org/navigation |
+| Path Planning | ROS Navigation | http://wiki.ros.org/navigation |
+| Path Following | ROS Navigation | http://wiki.ros.org/navigation |
+| Arm Control 1 | kinova_ros  | https://github.com/Kinovarobotics/kinova-ros |
+| Arm Control 2 | fetch_ros  | https://github.com/fetchrobotics/fetch_ros |
+| Category Detection | Pose | NOCS | https://github.com/momantu/nocs_ros  |
+| Object Detection | Pose | (todo) | |
+| Object Place Pose | AprilTag_ROS  | http://wiki.ros.org/apriltag_ros |
+| Grasp Planning | / | / |
+| Arm Planning 1 & IK | MoveIt Pick and Place | http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/pick_place/pick_place_tutorial.html  |
+| Arm Planning 2 & IK | MoveIt directly (todo) | https://moveit.ros.org/ |
+| Human Robot Interaction 1 | RViz & FlexBE App| http://wiki.ros.org/rviz |
+| Human Robot Interaction 2 | Speech (todo) | |
+| Decision Making | FlexBE | http://wiki.ros.org/flexbe  |
+
+## Offline Packages:
+
+| Role         | Package           | URLs  |
+|:-------------|:------------------|:------|
+| Simulation World Building |  Gazebo  | http://gazebosim.org/ |
+| SLAM 2D | Cartographer | http://wiki.ros.org/cartographer |
+| SLAM 3D | Cartographer (todo)| http://wiki.ros.org/cartographer|
+| Camera Calibration | camera_calibration | http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration |
+| Camera Pose Detection | AprilTag_ROS | https://github.com/AprilRobotics/apriltag_ros |
+| Hand-eye Calibration | easy_handeye | https://github.com/IFL-CAMP/easy_handeye |
+
 
 # Getting Help
 
