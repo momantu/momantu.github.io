@@ -3,10 +3,10 @@
 
 @import "{{ site.theme }}";
 
-footer {
-  display: none !important;
+#banner > a {
+	display: none !important;
 }
 
-.btn {
-  display: none !important;
+#cen {
+	text-align: center;
 }
