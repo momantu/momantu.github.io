@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Welcome to the <u>Mo</u>bile <u>Man</u>ipulation <u>Tu</u>torial (MoManTu). 
+# Welcome to the <u>Mo</u>bile <u>Man</u>ipulation <u>Tu</u>torial (MoManTu). 
 
 This is the webpage for the tutorial in the (journal to be announced). Find the overview paper here (link to open access paper provided once it is accepted) and the detailed tutorial here (dito). 
 
@@ -12,15 +12,56 @@ The tutorial teaches how to program a mobile robot with a robot arm to do mobile
 
 The videos show the demo on a real and a simulated Fetch robot.
 
-<video controls>
+<video width="100%" controls>
   <source src="/videos/real_fetch_web.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-<video controls>
+<video width="100%" controls>
   <source src="/videos/sim_fetch_web.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+# Docker
+
+The easiest way to get started with playing with the tutorial is to use the provided Docker image. 
+    
+To pull the docker image and run the demo use:
+
+```bash
+docker run --name momantu -i -t -p 6900:5900 -e RESOLUTION=1920x1080 yz16/momantu
+```
+
+Then open a VNC client (e.g. [RealVNC](https://www.realvnc.com/en/connect/download/viewer)) and connect to _127.0.0.1:6900_. The workspaces are located in the root folder and ready to use. 
+
+## Run MoManTu
+
+Launch the simulator and the MoManTu software by running this command in the terminal:
+
+```bash
+roslaunch fetch_sim demo.launch
+```
+
+The pose estimation module based on NOCS, which runs under a conda environment of Python 3.5.
+Activate the environment and launch the object pose estimation module with:
+```bash
+conda activate NOCS #activate environment
+source ~/nocs_ws/devel/setup.bash
+roslaunch nocs_srv pose_estimation_server.launch
+```
+
+Finally, launch the flexbe_app and robot_server node to connect other modules and start the demo: 
+```bash
+roslaunch fetch_sim robot_service.launch
+```
+
+# Sources
+
+# Getting Help
+
+# Sensor Log
+
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
