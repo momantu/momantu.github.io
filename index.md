@@ -8,9 +8,13 @@ This is the webpage for the tutorial in the (journal to be announced). Find the 
 
 The tutorial teaches how to program a mobile robot with a robot arm to do mobile manipulation. The example systems are a [Fetch](https://fetchrobotics.com/robotics-platforms/) robot and a [Clearpath Jaca](https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/) with a [Kinova Jaco](https://www.kinovarobotics.com/en/products/gen2-robot) attached - see the image below.
 
+<center>
 <img src="/imgs/robots.jpg" alt="MoManTu Robots" width="50%"/>
+Figure 1: The robots used in the MoManTu: Fetch and Jackal + Kinova (top left and right) and their simulated versions below.
+</center>
 
-The tutorial is developed by the [Mobile Autonomous Robotic Systems Lab](https://robotics.shanghaitech.edu.cn/) (MARS Lab) and the [Living Machines Lab](http://lima.sist.shanghaitech.edu.cn/) (LiMa Lab) of the [ShanghaiTech Automation and Robotics Center](http://star-center.shanghaitech.edu.cn/) (STAR Center), [School of Information Science and Technology](http://sist.shanghaitech.edu.cn/) (SIST) of [ShanghaiTech University](https://www.shanghaitech.edu.cn/). 
+
+The tutorial is developed by the [Mobile Autonomous Robotic Systems Lab](https://robotics.shanghaitech.edu.cn/) (MARS Lab) and the [Living Machines Lab](http://lima.sist.shanghaitech.edu.cn/) (LIMA Lab) of the [ShanghaiTech Automation and Robotics Center](http://star-center.shanghaitech.edu.cn/) (STAR Center), [School of Information Science and Technology](http://sist.shanghaitech.edu.cn/) (SIST) of [ShanghaiTech University](https://www.shanghaitech.edu.cn/). 
 
 Below two videos show the demo on a real and a simulated Fetch robot:
 
@@ -63,7 +67,7 @@ roslaunch fetch_sim robot_service.launch
 
 The sources for the MoManTu are on GitHub: [https://github.com/momantu](https://github.com/momantu).
 
-The MoManTu Fetch demo is found here: https://github.com/momantu/momantu_fetch
+The MoManTu Fetch demo is found here: [https://github.com/momantu/momantu_fetch](https://github.com/momantu/momantu_fetch)
 
 The MoManTu Jackal Kinova demo is todo.
 
@@ -71,32 +75,32 @@ The MoManTu Jackal Kinova demo is todo.
 
 | Role         | Package           | URL  |
 |:-------------|:------------------|:------|
-| Localization | AMCL | http://wiki.ros.org/amcl  |
-| Local Costmap | ROS Navigation | http://wiki.ros.org/navigation |
-| Path Planning | ROS Navigation | http://wiki.ros.org/navigation |
-| Path Following | ROS Navigation | http://wiki.ros.org/navigation |
-| Arm Control 1 | kinova_ros  | https://github.com/Kinovarobotics/kinova-ros |
-| Arm Control 2 | fetch_ros  | https://github.com/fetchrobotics/fetch_ros |
-| Category Detection | Pose | NOCS | https://github.com/momantu/nocs_ros  |
+| Localization | AMCL | [link](http://wiki.ros.org/amcl)  |
+| Local Costmap | ROS Navigation | [link](http://wiki.ros.org/navigation) |
+| Path Planning | ROS Navigation | [link](http://wiki.ros.org/navigation) |
+| Path Following | ROS Navigation | [link](http://wiki.ros.org/navigation) |
+| Arm Control 1 | kinova_ros  | [link](https://github.com/Kinovarobotics/kinova-ros) |
+| Arm Control 2 | fetch_ros  | [link](https://github.com/fetchrobotics/fetch_ros) |
+| Category Detection & Pose | NOCS | [link](https://github.com/momantu/nocs_ros)  |
 | Object Detection | Pose | (todo) | |
-| Object Place Pose | AprilTag_ROS  | http://wiki.ros.org/apriltag_ros |
+| Object Place Pose | AprilTag_ROS  | [link](http://wiki.ros.org/apriltag_ros) |
 | Grasp Planning | / | / |
-| Arm Planning 1 & IK | MoveIt Pick and Place | http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/pick_place/pick_place_tutorial.html  |
-| Arm Planning 2 & IK | MoveIt directly (todo) | https://moveit.ros.org/ |
-| Human Robot Interaction 1 | RViz & FlexBE App| http://wiki.ros.org/rviz |
+| Arm Planning 1 & IK | MoveIt Pick and Place | [link](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/pick_place/pick_place_tutorial.html)  |
+| Arm Planning 2 & IK | MoveIt directly (todo) | [link](https://moveit.ros.org/) |
+| Human Robot Interaction 1 | RViz & FlexBE App| [link](http://wiki.ros.org/rviz) |
 | Human Robot Interaction 2 | Speech (todo) | |
-| Decision Making | FlexBE | http://wiki.ros.org/flexbe  |
+| Decision Making | FlexBE | [link](http://wiki.ros.org/flexbe)  |
 
 ## Offline Packages:
 
 | Role         | Package           | URLs  |
 |:-------------|:------------------|:------|
-| Simulation World Building |  Gazebo  | http://gazebosim.org/ |
-| SLAM 2D | Cartographer | http://wiki.ros.org/cartographer |
-| SLAM 3D | Cartographer (todo)| http://wiki.ros.org/cartographer|
-| Camera Calibration | camera_calibration | http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration |
-| Camera Pose Detection | AprilTag_ROS | https://github.com/AprilRobotics/apriltag_ros |
-| Hand-eye Calibration | easy_handeye | https://github.com/IFL-CAMP/easy_handeye |
+| Simulation World Building |  Gazebo  | [link](http://gazebosim.org/) |
+| SLAM 2D | Cartographer | [link](http://wiki.ros.org/cartographer) |
+| SLAM 3D | Cartographer (todo)| [link](http://wiki.ros.org/cartographer) |
+| Camera Calibration | camera_calibration | [link](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration) |
+| Camera Pose Detection | AprilTag_ROS | [link](https://github.com/AprilRobotics/apriltag_ros) |
+| Hand-eye Calibration | easy_handeye | [link](https://github.com/IFL-CAMP/easy_handeye) |
 
 
 # Getting Help
