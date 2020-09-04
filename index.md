@@ -8,9 +8,11 @@ This is the webpage for the tutorial in the (journal to be announced). Find the 
 
 The tutorial teaches how to program a mobile robot with a robot arm to do mobile manipulation. The example systems are a [Fetch](https://fetchrobotics.com/robotics-platforms/) robot and a [Clearpath Jaca](https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/) with a [Kinova Jaco](https://www.kinovarobotics.com/en/products/gen2-robot) attached - see the image below.
 
-![Branching](/imgs/robots.jpg)
+<img src="/imgs/robots.jpg" alt="MoManTu Robots" width="50%"/>
 
-The videos show the demo on a real and a simulated Fetch robot.
+The tutorial is developed by the [Mobile Autonomous Robotic Systems Lab](https://robotics.shanghaitech.edu.cn/) (MARS Lab) and the [Living Machines Lab](http://lima.sist.shanghaitech.edu.cn/) (LiMa Lab) of the [ShanghaiTech Automation and Robotics Center](http://star-center.shanghaitech.edu.cn/) (STAR Center), [School of Information Science and Technology](http://sist.shanghaitech.edu.cn/) (SIST) of [ShanghaiTech University](https://www.shanghaitech.edu.cn/). 
+
+Below two videos show the demo on a real and a simulated Fetch robot:
 
 <video width="100%" controls>
   <source src="/videos/real_fetch_web.mp4" type="video/mp4">
@@ -21,6 +23,8 @@ The videos show the demo on a real and a simulated Fetch robot.
   <source src="/videos/sim_fetch_web.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+&nbsp;  
 
 # Docker
 
@@ -57,128 +61,20 @@ roslaunch fetch_sim robot_service.launch
 
 # Sources
 
+The sources for the MoManTu are on GitHub: [https://github.com/momantu](https://github.com/momantu).
+
 # Getting Help
+
+You are welcome to post issues on the [momantu fetch](https://github.com/momantu/momantu_fetch/issues) repo to get help. You may also send an email to [Hou Jiawei](mailto:houjw@shanghaitech.edu.cn?subject=[GitHub]%20MoManTu) or [Prof. Sören Schwertfeger](mailto:soerensch@shanghaitech.edu.cn?subject=[GitHub]%20MoManTu).
 
 # Sensor Log
 
+A ROS bagfile with the sensor data from a real fetch run is [avaiable](https://robotics.shanghaitech.edu.cn/static/datasets/MoManTu/fetch_real.bag) (3.4GB).
+
+# Citing
+
+Please cite our paper if you use the tutorial in your research.
+
+(bibtex citation to be provided)
 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
