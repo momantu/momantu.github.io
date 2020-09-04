@@ -6,16 +6,21 @@ layout: default
 
 This is the webpage for the tutorial in the (journal to be announced). Find the overview paper here (link to open access paper provided once it is accepted) and the detailed tutorial here (dito), while the code is hosted on [https://github.com/momantu](https://github.com/momantu).
 
+**The tutorial is still under development! Please use with caution.**
+
 The tutorial teaches how to program a mobile robot with a robot arm to do mobile manipulation. The example systems are a [Fetch](https://fetchrobotics.com/robotics-platforms/) robot and a [Clearpath Jaca](https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/) with a [Kinova Jaco](https://www.kinovarobotics.com/en/products/gen2-robot) attached - see the image below.
 
 <div id="cen">
 <img src="/imgs/robots.jpg" alt="MoManTu Robots" width="50%"/><br>
 Figure 1: The robots used in the MoManTu: Fetch and Jackal + Kinova <br>
-(top left and right) and their simulated versions below.<br>
+(top left and right) and their simulated versions below.
 </div>
 
+nbsp;  
 
 The tutorial is developed by the [Mobile Autonomous Robotic Systems Lab](https://robotics.shanghaitech.edu.cn/) (MARS Lab) and the [Living Machines Lab](http://lima.sist.shanghaitech.edu.cn/) (LIMA Lab) of the [ShanghaiTech Automation and Robotics Center](http://star-center.shanghaitech.edu.cn/) (STAR Center), [School of Information Science and Technology](http://sist.shanghaitech.edu.cn/) (SIST) of [ShanghaiTech University](https://www.shanghaitech.edu.cn/). 
+
+We welcome comments, suggestions and potentially even code contributions to the tutorial. Please see [Getting Help](#getting-help) to contact us.
 
 Below two videos show the demo on a real and a simulated Fetch robot:
 
@@ -94,7 +99,7 @@ The MoManTu Jackal Kinova demo is todo.
 
 ## Offline Packages:
 
-| Role         | Package           | URLs  |
+| Role         | Package           | URL  |
 |:-------------|:------------------|:------|
 | Simulation World Building |  Gazebo  | [link](http://gazebosim.org/) |
 | SLAM 2D | Cartographer | [link](http://wiki.ros.org/cartographer) |
