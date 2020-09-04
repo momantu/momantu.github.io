@@ -2,6 +2,26 @@
 layout: default
 ---
 
+Welcome to the <u>Mo</u>bile <u>Man</u>ipulation <u>Tu</u>torial (MoManTu). 
+
+This is the webpage for the tutorial in the (journal to be announced). Find the overview paper here (link to open access paper provided once it is accepted) and the detailed tutorial here (dito). 
+
+The tutorial teaches how to program a mobile robot with a robot arm to do mobile manipulation. The example systems are a [Fetch](https://fetchrobotics.com/robotics-platforms/) robot and a [Clearpath Jaca](https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/) with a [Kinova Jaco](https://www.kinovarobotics.com/en/products/gen2-robot) attached - see the image below.
+
+![Branching](/imgs/robots.jpg)
+
+The videos show the demo on a real and a simulated Fetch robot.
+
+<video controls>
+  <source src="/videos/real_fetch_web.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video controls>
+  <source src="/videos/sim_fetch_web.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
