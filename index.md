@@ -16,7 +16,7 @@ Figure 1: The robots used in the MoManTu: Fetch and Jackal + Kinova <br>
 (top left and right) and their simulated versions below.
 </div>
 
-nbsp;  
+&nbsp;  
 
 The tutorial is developed by the [Mobile Autonomous Robotic Systems Lab](https://robotics.shanghaitech.edu.cn/) (MARS Lab) and the [Living Machines Lab](http://lima.sist.shanghaitech.edu.cn/) (LIMA Lab) of the [ShanghaiTech Automation and Robotics Center](http://star-center.shanghaitech.edu.cn/) (STAR Center), [School of Information Science and Technology](http://sist.shanghaitech.edu.cn/) (SIST) of [ShanghaiTech University](https://www.shanghaitech.edu.cn/). 
 
@@ -34,7 +34,7 @@ Below two videos show the demo on a real and a simulated Fetch robot:
   Your browser does not support the video tag.
 </video>
 
-nbsp;  
+&nbsp;  
 
 # Docker
 
